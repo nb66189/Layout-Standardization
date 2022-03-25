@@ -1,7 +1,10 @@
        var i = 0;
 
        function changeColor() {
-           var doc = document.getElementsByClassName("footer");
+           var doc = document.getElementsByClassName("name");
+           /**
+            * array of colors
+            */
            var col = ["Green", "blue", "orange", "green", "purple", "black", "brown", "pink"];
            doc[0].style.color = col[i];
            console.log(i);
@@ -14,7 +17,13 @@
 
        function getNewColor() {
            var symbols, color;
+           /**
+            * Hexadecimal symbols are used to get random colors
+            */
            symbols = "0123456789ABCDEF";
+           /**
+            * color codes starts with #
+            */
            color = "#";
            for (var i = 0; i < 6; i++) {
                color = color + symbols[Math.floor(Math.random() * 16)];

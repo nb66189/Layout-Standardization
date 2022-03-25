@@ -30,7 +30,7 @@
      margin-bottom: 150px;
  }
  
- .footer {
+ .name {
      font-size: 30px;
      color: white;
      position: relative;
@@ -79,7 +79,7 @@
          height: 144px;
          background: greenyellow;
      }
-     .footer {
+     .name {
          bottom: 0;
          left: 0;
          position: absolute;
