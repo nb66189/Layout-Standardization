@@ -5,7 +5,7 @@
            /**
             * array of colors
             */
-           var col = ["Green", "blue", "orange", "green", "purple", "black", "brown", "pink"];
+           var col = ["Green", "blue", "orange", "indigo", "purple", "black", "brown", "pink"];
            doc[0].style.color = col[i];
            console.log(i);
            i++;
